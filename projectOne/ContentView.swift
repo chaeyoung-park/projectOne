@@ -12,10 +12,10 @@ struct ContentView: View {
         VStack {
                 
             Image("sunset")
-                .resizable(resizingMode: .stretch)
+                .resizable()
                 .padding(.bottom)
                 .imageScale(.large)
-            Text("Pretty Sunset")
+            Text("Pretty Sunset!!!!!!")
                 .font(.title3)
                 .fontWeight(.semibold)
                 .foregroundColor(Color.black)
